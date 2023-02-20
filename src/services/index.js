@@ -1,1 +1,7 @@
-export { default as adminService } from './adminService';
+import adminService from './adminService';
+import userService from './userService';
+
+export {
+    adminService,
+    userService
+}
